@@ -1,3 +1,377 @@
-header {
-  background-color: black;
+@import url("./section.css");
+@import url("./footer.css");
+@import url("./header.css");
+
+* {
+  box-sizing: border-box;
+}
+.section {
+  padding: 50px 0;
+}
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  font-family: "Fraunces", serif;
+  font-family: "Barlow", sans-serif;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+span {
+  display: inline-block;
+}
+
+.btn {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 15px 31px;
+  color: #fefcf7;
+  background-color: #0e8784;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background-color: #66d2cf;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.our-collection-container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1110.82px;
+}
+.main-footer {
+  padding: 45px 85px;
+  background-color: #2c343e;
+  display: flex;
+}
+
+.nav-footer {
+  margin-left: 103px;
+  display: flex;
+  text-align: center;
+}
+
+.footer-content {
+  margin-left: auto;
+}
+
+.footer-content img {
+  margin-left: 24px;
+}
+
+.footer-content img:hover {
+  background-color: #fdd6ba;
+}
+
+.nav-footer li a {
+  color: #83888f;
+}
+
+.nav-footer li {
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: "Barlow";
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 700;
+  margin-left: 33px;
+}
+
+.nav-footer a:hover {
+  color: #fefcf7;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.main-header-inner {
+  padding-top: 43px;
+  display: flex;
+}
+.nav {
+  text-align: center;
+  margin-left: auto;
+  display: flex;
+}
+.nav li {
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: "Barlow";
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 700;
+  margin-left: 33px;
+}
+.nav li a {
+  color: #83888f;
+}
+
+.main-header {
+  position: relative;
+}
+.header-section {
+  padding: 117px 0;
+  padding-left: 85px;
+  background-color: #a2a2a2;
+  border-radius: 10px;
+}
+.header-section-title {
+  margin: 0;
+  color: #fefcf7;
+  width: 493px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+}
+.header-section-content {
+  margin-bottom: 56px;
+  width: 445px;
+  margin-top: 32px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  opacity: 0.8;
+}
+.our-collection {
+  padding-top: 36px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-collection-img {
+  position: absolute;
+  top: 849px;
+  opacity: 0.5;
+  display: flex;
+  margin: 0 auto;
+}
+.our-collection img {
+  margin: 0 auto;
+  display: flex;
+}
+.our-collection {
+  padding-top: 126px;
+}
+.expresso-title,
+.planalto-title,
+.piccolo-title,
+.danche-title {
+  margin: 0 auto;
+  text-align: center;
+  width: 255px;
+  height: 32px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333d4b;
+  margin-top: 71px;
+}
+.expresso-subtitle,
+.planalto-subtitle,
+.piccolo-subtitle,
+.danche-subtitle {
+  margin-top: 24px;
+  margin-bottom: 0;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  width: 255px;
+  text-align: center;
+}
+.expresso,
+.danche,
+.piccolo,
+.planalto {
+  width: 25%;
+}
+
+.why-choose-us {
+  position: absolute;
+  position: relative;
+  background-color: #2c343e;
+  border-radius: 10px;
+  width: 1280px;
+  height: 577px;
+}
+.how-it-work-boxs {
+  position: absolute;
+  margin: 0 auto;
+  top: 1920px;
+  justify-content: center;
+  display: flex;
+}
+.best-quality,
+.exclusive-benefits,
+.free-shipping {
+  width: 350px;
+  height: 382px;
+  background-color: #0e8784;
+  border-radius: 8px;
+}
+.best-quality {
+  margin-left: 120px;
+  margin-right: 30px;
+}
+.exclusive-benefits {
+  margin-right: 30px;
+}
+.why-choose-us-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #fefcf7;
+}
+.why-choose-us-subtitle {
+  margin: 0 auto;
+  width: 400px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+  opacity: 0.8;
+}
+.best-quality-img {
+  margin-top: 72px;
+  margin-left: 136px;
+}
+.exclusive-benfits-img {
+  margin-top: 72px;
+  margin-left: 135px;
+}
+.free-shoping-img {
+  margin-top: 83px;
+  margin-left: 136px;
+}
+.best-quality-title,
+.exclusiveb-enefits-title,
+.free-shipping-title {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+}
+.free-shipping-subtitle,
+.exclusive-benefits-subtitle,
+.best-quality-subtitle {
+  margin: 0 auto;
+  width: 255px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+}
+
+.last-section-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+}
+
+.last-section-header {
+  padding-top: 200px;
+}
+
+.last-section-line {
+  position: relative;
+  width: 760px;
+  height: 1px;
+  background-color: #fdd6ba;
+}
+
+.oval-1,
+.oval-2,
+.oval-3 {
+  background: #fefcf7;
+  border: 2px solid #0e8784;
+  background-color: #fefcf7;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+}
+.pick-coffee-number,
+.frequency-number,
+.enjoy-number {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fdd6ba;
+}
+
+.last-section {
+  display: flex;
+  gap: 95px;
+}
+.frequency-title,
+.pick-coffee-title,
+.enjoy-title {
+  width: 255px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+}
+
+.enjoy-subtitle,
+.frequency-subtitle,
+.pick-coffee-subtitle {
+  width: 285px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+
+.last-section-header a {
+  margin-top: 79px;
+}
+
+.nav a:hover {
+  color: #333d4b;
 }
